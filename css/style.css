@@ -4,7 +4,9 @@ html {
   font-family: "Courier New", "monospace";
 }
 
-h1 {
+h1,
+h2,
+h3 {
   font-weight: normal;
 }
 
@@ -12,4 +14,23 @@ body {
   margin: 0 auto;
   max-width: 960px;
   padding: 100px;
+}
+
+a,
+a:visited {
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+}
+
+a:after {
+  content: "";
+
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+
+  border-width: 0 0 1px;
+  border-style: solid;
 }
