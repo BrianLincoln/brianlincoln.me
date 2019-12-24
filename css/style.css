@@ -1,0 +1,15 @@
+html {
+  background: #2c2c2c;
+  color: #fff;
+  font-family: "Courier New", "monospace";
+}
+
+h1 {
+  font-weight: normal;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 100px;
+}
